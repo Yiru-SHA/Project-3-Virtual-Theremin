@@ -1,9 +1,7 @@
 console.log("connected!")
 
     /* -----P5 setup----- */
-
     // Make sure you move your mouse around
-
     // Open this sketch up 2 times to send video back and forth
 
     let myVideo;
@@ -132,7 +130,7 @@ console.log("connected!")
                 let rightWristY = pose.keypoints[10].position.y;
 
                 if (width - rightWristX > stringX && width - rightWristX < stringX + w) {
-                    fill(0, 255, 255, 200);
+                    fill(0, 250, 255, 200);
                 } else {
                     fill(0, 0, 150, 100);
                 }
